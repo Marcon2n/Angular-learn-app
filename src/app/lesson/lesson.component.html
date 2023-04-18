@@ -1,0 +1,171 @@
+<div class="container">
+  <div class="row">
+    <!-- LAYOUT NỘI DUNG VIDEO VÀ TƯƠNG TÁC -->
+    <div class="col-lg-9">
+      <div class="ratio ratio-16x9 mt-1">
+        <!-- NỘI DUNG HIỂN THỊ VIDEO -->
+        <iframe
+          #myVideo
+          src="https://youtube.com/embed/rvxzn2cfFDM"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <!-- CỤM BUTTON DƯỚI VIDEO -->
+      <div class="mt-3">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+            #btnTab1
+            id="btnTab1"
+            class="nav-link active" 
+            type="button"
+            (click)="onActive(btnTab1)">
+              Ghi chú
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+            #btnTab2
+            id="btnTab2"
+            class="nav-link"  
+            type="button"
+            (click)="onActive(btnTab2)">
+              Tải tài liệu
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+            #btnTab3
+            id="btnTab3"
+            class="nav-link"
+            type="button"
+            (click)="onActive(btnTab3)">
+              Mind Map
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content border border-top-0 p-2 bg-light" id="myTabContent">
+
+          <!-- NỘI DUNG GHI CHÚ -->
+          <div 
+          class="tab-pane fade show active" 
+          id="note">
+
+            <!-- TEXT HIỂN THỊ GHI CHÚ -->
+            <div class="form-floating">
+              <textarea 
+              class="form-control" 
+              placeholder="Leave a comment here" 
+              id="floatingTextarea2" 
+              style="height: 150px"></textarea>
+              <label 
+              for="floatingTextarea2">
+              <em class="text-secondary">Ghi chú bài học</em>
+              </label>
+            </div>
+
+            <!-- NÚT LƯU -->
+            <button 
+            type="button" 
+            class="btn btn-primary mt-1">Lưu thông tin</button>
+            
+            <!-- NÚT XÓA -->
+            <button 
+            type="button" 
+            class="btn btn-danger mt-1 ms-1 me-1">Xóa</button>
+          </div>
+
+          <!-- NỘI DUNG TẢI TÀI LIỆU -->
+          <div 
+          class="tab-pane fade " 
+          id="download" 
+          style="height: 190px">
+              <!-- ĐIỀU KIỆN DOWNLOAD FILE -->
+              <div *ngIf="checkLinkDownload; else elseBlock">
+                <div 
+                class="container"
+                *ngFor="let a of linkDownload;let i = index">
+                  <span class="">
+                    <img src="../../assets/download.png" height="20px" width="20px">
+                  </span>
+                  <a 
+                    style="padding-left: 10px;" 
+                    [href]="a">
+                    Tài liệu số {{i+1}}
+                  </a>
+                </div>
+              </div>
+              <!-- ĐIỀU KIỆN SAI -->
+              <ng-template #elseBlock>
+                <p class="text-secondary"><i>Bài học không có file đính kèm</i></p>
+                
+              </ng-template>
+          </div>
+
+          <!-- NỘI DUNG MIND MAP -->
+          <div 
+          class="tab-pane fade" 
+          id="map" 
+          style="height: 190px">
+            <div class="container">
+              Mind Map
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+
+    <!-- LAYOUT NỘI DUNG BÀI HỌC -->
+    <div class="col-lg-3">
+      <div 
+      class="container text-center text-uppercase bg-dark text-white mt-1 p-3">
+          <strong>Nội dung bài học</strong>
+      </div>
+      <div class="accordion accordion-flush" 
+          style="overflow-y: auto;
+          max-height: 800px;">
+          <div 
+          class="accordion-item"
+          *ngFor="let lesson of dataLesson.angular; let i = index">
+            <h2 
+            class="accordion-header" 
+            id="flush-headingOne">
+              <button 
+              #btn1
+              id="{{i+1}}"
+              class="accordion-button text-uppercase"
+              appCollapsed
+              (click)="onToggle(show)">
+                <strong>{{lesson.name}}</strong>
+              </button>
+            </h2>
+            <div 
+            #show
+            id="show {{i+1}}" 
+            class="accordion-collapse collapse bg-light">
+              <div 
+              class="accordion-body"
+              *ngFor="let test of lesson.content; let in = index">
+                <div class="form-check">
+                  <input 
+                  class="form-check-input" 
+                  type="checkbox" 
+                  value="" 
+                  id="defaultCheck1">
+                  <label 
+                  class="form-check-label" 
+                  for="defaultCheck1">
+                    <a 
+                    href="#"
+                    (click)="onTest(test)">{{test.title}}</a>
+                  </label>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

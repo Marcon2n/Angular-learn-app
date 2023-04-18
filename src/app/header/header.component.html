@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="navbar">
+      <img 
+      src="../../assets/logo.png"
+       height="40 px" 
+       width="40 px">
+      <h5 class="text-white text-uppercase p-1">Learning App V1.0</h5>
+    </div>
+    <button
+    #btn1
+    id="btn1" 
+    class="navbar-toggler" 
+    (click)="onToggle(btn1.id)">
+      <span class="navbar-toggler-icon dropdown"></span>
+    </button>
+    <div
+    #btn2 
+    class="collapse navbar-collapse" 
+    id="btn2"
+    [ngClass]="{show: isClick[0] === true}">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a
+          #btn2
+          class="nav-link dropdown-toggle"
+          id="btn2"
+          (click)="onToggle(btn2.id)">
+            Môn học
+          </a>
+          <ul 
+          class="dropdown-menu dropdown-menu-dark" 
+          aria-labelledby="navbarDarkDropdownMenuLink"
+          [ngClass]="{show: isClick[1] === true}">
+            <li><a class="dropdown-item" href="#">HTML/CSS</a></li>
+            <li><a class="dropdown-item" href="#">Javascript</a></li>
+            <li><a class="dropdown-item" href="#">Angular</a></li>
+            <li><a class="dropdown-item" href="#">ReactJS</a></li>
+            <li><a class="dropdown-item" href="#">NodeJS</a></li>           
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
