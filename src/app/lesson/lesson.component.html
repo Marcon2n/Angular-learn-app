@@ -2,13 +2,16 @@
   <div class="row">
     <!-- LAYOUT NỘI DUNG VIDEO VÀ TƯƠNG TÁC -->
     <div class="col-lg-9">
+      
+      <!-- NỘI DUNG HIỂN THỊ VIDEO -->
       <div class="ratio ratio-16x9 mt-1">
-        <!-- NỘI DUNG HIỂN THỊ VIDEO -->
-        <iframe
-          #myVideo
-          src="https://youtube.com/embed/rvxzn2cfFDM"
-          allowfullscreen
-        ></iframe>
+        <div class="ratio ratio-16x9 mt-1">
+          <iframe
+            #myVideo
+            src = "https://youtube.com/embed/rvxzn2cfFDM"
+            allowfullscreen>
+          </iframe>
+      </div>
       </div>
 
       <!-- CỤM BUTTON DƯỚI VIDEO -->
@@ -132,11 +135,10 @@
             class="accordion-header" 
             id="flush-headingOne">
               <button 
-              #btn1
+              #sectionCourse
               id="{{i+1}}"
-              class="accordion-button text-uppercase"
-              appCollapsed
-              (click)="onToggle(show)">
+              class="accordion-button text-uppercase collapsed"
+              (click)="onToggle(show,sectionCourse)">
                 <strong>{{lesson.name}}</strong>
               </button>
             </h2>
