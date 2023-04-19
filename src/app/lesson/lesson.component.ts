@@ -952,165 +952,81 @@ export class LessonComponent {
         content: [
           {
             title: "155. Hình thành cấu trúc chung",
-            link: "https://youtube.com/embed/OGXsZUTVJU8",
-            download: [
-              'https://drive.google.com/uc?export=download&id=1LrSnTrxWuJ-eE9rby5jb1h6YeAVlXjqe'
-            ]
+            link: "https://youtube.com/embed/royI92nUZTg",
+            download: []
           },
           {
             title: "156. Cài đặt các Routes",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: [
-              'https://drive.google.com/uc?export=download&id=171wt4oVR-cP1tmp3yCeNowVuVy4KR60C'
-            ]
+            link: "https://youtube.com/embed/eU-XfRJe36w",
+            download: []
           },
           {
             title: "157. Thêm thanh điều hướng cho ứng dụng",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            link: "https://youtube.com/embed/W3Pg74NdyJw",
             download: []
           },
           {
             title: "158. Ghi dấu các Active Routes",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            link: "https://youtube.com/embed/pHyhz_yUTKQ",
             download: []
           },
           {
             title: "159. Sửa lỗi Load Page",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            link: "https://youtube.com/embed/bL8xSRjj8xg",
             download: []
           },
           {
             title: "160. THỬ THÁCH: Child Routes",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            link: "https://youtube.com/embed/d1hGRiYXLhA",
             download: []
           },
           {
             title: "161. Hướng dẫn thêm Child Routes",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            link: "https://youtube.com/embed/lbj_jsdDNGA",
             download: []
           },
           {
             title: "162. Tùy chỉnh tham số cho Route",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            link: "https://youtube.com/embed/y7HI4ziVUOA",
             download: []
           },
           {
             title: "163. Truyền tham số động vào đường dẫn",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            link: "https://youtube.com/embed/GmaRF_jOacE",
             download: []
           },
           {
-            title: "164. Tạo kiểu cho Recipe Item được chọn",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            title: "164. Tạo kiểu cho Active Recipe Item",
+            link: "https://youtube.com/embed/iaSjUGFiSyg",
             download: []
           },
           {
-            title: "134. Fetching tham số của Route",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            title: "165. Thêm đường dẫn cho Editing Route",
+            link: "https://youtube.com/embed/kMWcvAkjlgA",
             download: []
           },
           {
-            title: "135. Fetching tham số của Route Reactively",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            title: "166. Nhận lại tham số của Route",
+            link: "https://youtube.com/embed/IOXaB52urps",
             download: []
           },
           {
-            title: "136. Lưu ý quan trọng về Route Observables",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            title: "167. Thiết lập định hướng cho Edit Page",
+            link: "https://youtube.com/embed/bZ7DMKoN3zQ",
             download: []
           },
           {
-            title: "137. Passing Query Parameters and Fragments",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            title: "168. Lưu ý cho Route Observables",
+            link: "https://youtube.com/embed/hb_yoXJ6xkE",
             download: []
           },
           {
-            title: "138. Retrieving Query Parameters and Fragments",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "139. Thực hành và một số vấn đề đạt được",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "140. Cấu hình Child(Nested) Route",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "141. Thực hành sử dụng Query Parameters",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "142. Cấu hình Handling of Query Parameters",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "143. Redirecting and Wildcard Routes",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "144. QUAN TRỌNG: Matching đường dẫn Redirection",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "145. Outsourcing the Route Configuration",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "146. Introduction to Guards",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "147. Protecing Routes with canActive",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "148. Protecting Child(Nest) Routes with canActiveChild",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "149. Using a Fake Auth Service",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "150. Controlling Navigation with canDeactivate",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "151. Passing Static Data to Route",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "152. Resolving Dynamic Data with the resolve Guard",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "153. Understanding Location",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
-            download: []
-          },
-          {
-            title: "154. Tổng kết học phần",
-            link: "https://youtube.com/embed/jwXnGIB2z40",
+            title: "169. Loại bỏ code thừa cho dự án",
+            link: "../../assets/169.pdf",
             download: [
-              'https://drive.google.com/uc?export=download&id=1H-9_hoiG-fDxZpDPJpECr8eQhjphuvQ9'
+              'https://drive.google.com/uc?export=download&id=1K56jCacn6yoT9Ah8u3TGopHYVcxEZAuv'
             ]
-          },
+          }
         ]
       },
     ]
