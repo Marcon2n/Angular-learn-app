@@ -32,11 +32,11 @@
           class="dropdown-menu dropdown-menu-dark" 
           aria-labelledby="navbarDarkDropdownMenuLink"
           [ngClass]="{show: isClick[1] === true}">
-            <li><a #HTML id='HTML' class="dropdown-item" href="#" (click)="onTest(HTML)">HTML/CSS</a></li>
-            <li><a class="dropdown-item" href="#">Javascript</a></li>
-            <li><a class="dropdown-item" href="#">Angular</a></li>
-            <li><a class="dropdown-item" href="#">ReactJS</a></li>
-            <li><a class="dropdown-item" href="#">NodeJS</a></li>           
+            <li><a id='HTML' class="dropdown-item pointer" (click)="onTest($event)">HTML/CSS</a></li>
+            <li><a id="javascript" class="dropdown-item pointer" (click)="onTest($event)">Javascript</a></li>
+            <li><a id="angular" class="dropdown-item pointer" (click)="onTest($event)">Angular</a></li>
+            <li><a id="react" class="dropdown-item pointer" (click)="onTest($event)">ReactJS</a></li>
+            <li><a id="node" class="dropdown-item pointer" (click)="onTest($event)">NodeJS</a></li>           
           </ul>
         </li>
       </ul>

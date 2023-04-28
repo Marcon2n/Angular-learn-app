@@ -1019,6 +1019,380 @@ export class AppService {
               }
             ]
           },
+          // PHẦN 13 NY
+          {
+            name: "Phần 13: Tìm hiểu về Observable",
+            content: [
+              {
+                title: "170. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "171. Cài đặt RxJS",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "172. Tìm hiểu về Angular Observable",
+                link: "https://youtube.com/embed/W3Pg74NdyJw",
+                download: []
+              },
+              {
+                title: "173. Tìm hiểu kĩ hơn về Core Observable",
+                link: "https://youtube.com/embed/pHyhz_yUTKQ",
+                download: []
+              },
+              {
+                title: "174. Tạo Custom Observable",
+                link: "https://youtube.com/embed/bL8xSRjj8xg",
+                download: []
+              },
+              {
+                title: "175. Hiển thị báo lỗi",
+                link: "https://youtube.com/embed/d1hGRiYXLhA",
+                download: []
+              },
+              {
+                title: "176. Observable",
+                link: "https://youtube.com/embed/lbj_jsdDNGA",
+                download: []
+              },
+              {
+                title: "177. Hiểu về cách thức hoạt động",
+                link: "https://youtube.com/embed/y7HI4ziVUOA",
+                download: []
+              },
+              {
+                title: "178. Subjects",
+                link: "https://youtube.com/embed/GmaRF_jOacE",
+                download: []
+              },
+              {
+                title: "179. Tổng kết kiến thức",
+                link: "https://youtube.com/embed/iaSjUGFiSyg",
+                download: []
+              },
+              {
+                title: "180. Thông tin và đướng link tham khảo",
+                link: "https://youtube.com/embed/kMWcvAkjlgA",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 14 NY
+          {
+            name: "Phần 14: Triển khai dự án với Observables",
+            content: [
+              {
+                title: "181. Cải tiến Reactive Service với Observables",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "182. Thay đổi tên Subcription",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 15 NY
+          {
+            name: "Phần 15: Thao tác Form trong Angular",
+            content: [
+              {
+                title: "183. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "184. Hỗ trợ của Angular trong Form",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "185. Template Drive (TD) và Reactive",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "186. Form mẫu",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "187. TD: Tạo Form và đăng kí Control",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "188. TD: Submit và sửu dụng Form",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "189. TD: Tìm hiểu về Form State",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "190. TD: Lấy thông tin từ Form bằng @ViewChild",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "191. TD: Thêm tính năng Validation với thông tin nhập vào",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "192. Thêm Validator và sử dụng tính năng Validation của HTML5",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "193. TS: Sử dụng Form State",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "196. TD: Hiển thị thông tin lỗi của Validation",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "197. TD: Kiểm soát Form Group",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "198. TD: Làm việc với kiểu lựa chọn (Radio)",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "199. TD: Nhận và truyền giá trị của Form",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "200. TD: Sử dụng Form Data",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "201. TD: Đưa Form về trạng thái mặc định",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "Asignment 06: Thực hành với Template Driven Form",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "202. Reactive: Cài đặt",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "203. Reactive: Tạo Form",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "204. Reactive: Đồng bộ HTML và Form",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "205. Reactive: Submit Form",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "206. Reactive: Thêm Validation",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "207. Reactive: Truy cập vào Control",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "208. Reactive: Grouping Control",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "209. Sửa lỗi",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "210. Reactive: Array trong From Control (FromArray)",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "211. Reactive: Tạo Validator thủ công",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "211. Reactive: Sử dụng Error Code",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "212. Reactive: Tạo đồng bộ với Validator thủ công",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "213. Reactive: Truyền trạng thái khi giá trị thay đổi",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "214. Reactive: Nhận và truyền giá trị",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "Assignment 07: Thực hành với Ractive Form",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "THAM KHẢO: Hướng dẫn Assignment",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+            ]
+          },
+          // PHẦN 16 NY
+          {
+            name: "Phần 16: Triển khai dự án với Form",
+            content: [
+              {
+                title: "218. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/royI92nUZTg",
+                download: []
+              },
+              {
+                title: "219. TD: Thêm Shopping List Form",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "220. Thêm validation vào Form",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "221. Thêm lựa chọn Item vào danh sách",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "222. Tải Shopping List Item vào Form",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "223. Cập nhật Item đã có",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "224. Đưa Form về mặc định",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "225. Tạo tính năng Clear(Cancel) cho người sử dụng",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "226. Thêm tính năng xóa Item",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "227. Tạo kiểu mẫu cho Recipe Edit Form bằng Reactive",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "228. Tạo Edit Recipes Form",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "229. Đồng bộ HTML với Form",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "230. Sủa lỗi",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "231. Thêm Ingredient Control vào Form Array",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "232. Thêm Ingrdient Control mới",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "233. Validation thông tin người dùng nhập",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "234. Submit Recipe Edit Form",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "235. Thêm tính năng xóa và cancel",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "236. Điều hướng sau khi xóa dữ liệu",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "237. Thêm trình chiếu hình ảnh",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "238. Hướng dẫn thao tác với Recipe Service",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "239. Xóa Ingredient và một số lưu ý",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+              {
+                title: "240. Xóa tất cả Item trong FormArray",
+                link: "https://youtube.com/embed/eU-XfRJe36w",
+                download: []
+              },
+            ]
+          },
           // PHẦN 33 FINISH
           {
             name: "Phần 33: Hướng dẫn qua về TypeScript",
