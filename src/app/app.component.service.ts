@@ -1019,80 +1019,93 @@ export class AppService {
               }
             ]
           },
-          // PHẦN 13 NY
+          // PHẦN 13 FINISH
           {
             name: "Phần 13: Tìm hiểu về Observable",
             content: [
               {
                 title: "170. Hướng dẫn học phần",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/4oEArMpbO4E",
                 download: []
               },
               {
                 title: "171. Cài đặt RxJS",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "../../assets/171.pdf",
                 download: []
               },
               {
                 title: "172. Tìm hiểu về Angular Observable",
-                link: "https://youtube.com/embed/W3Pg74NdyJw",
-                download: []
+                link: "https://youtube.com/embed/XVNZNlzPMGw",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1Ox0nwH-WHlx5qz6UvSBUZu8Rm5LGCRDA'
+                ]
               },
               {
                 title: "173. Tìm hiểu kĩ hơn về Core Observable",
-                link: "https://youtube.com/embed/pHyhz_yUTKQ",
+                link: "https://youtube.com/embed/jVATYoxUuSA",
                 download: []
               },
               {
                 title: "174. Tạo Custom Observable",
-                link: "https://youtube.com/embed/bL8xSRjj8xg",
-                download: []
+                link: "https://youtube.com/embed/ivA1QDiG9k8",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1pYzXoK7ivfcbJCbC8k5HsV4Fd2dV-PBs'
+                ]
               },
               {
                 title: "175. Hiển thị báo lỗi",
-                link: "https://youtube.com/embed/d1hGRiYXLhA",
+                link: "https://youtube.com/embed/RXyKBD0Kebo",
                 download: []
               },
               {
                 title: "176. Observable",
-                link: "https://youtube.com/embed/lbj_jsdDNGA",
+                link: "https://youtube.com/embed/u_0Xw8hpX9Q",
                 download: []
               },
               {
                 title: "177. Hiểu về cách thức hoạt động",
-                link: "https://youtube.com/embed/y7HI4ziVUOA",
-                download: []
+                link: "https://youtube.com/embed/eTymgen3hDg",
+                download: ['https://drive.google.com/uc?export=download&id=12GQ9VtGAeHdQGxpFA7bSLnMuWugBuEIQ']
               },
               {
                 title: "178. Subjects",
-                link: "https://youtube.com/embed/GmaRF_jOacE",
+                link: "https://youtube.com/embed/T5enJ63rJYE",
                 download: []
               },
               {
                 title: "179. Tổng kết kiến thức",
-                link: "https://youtube.com/embed/iaSjUGFiSyg",
-                download: []
+                link: "https://youtube.com/embed/6_Ls0XOCevY",
+                download: ['https://drive.google.com/uc?export=download&id=1y8YD10h6LgjVGTptXaL_EtJ-P3TY-wPA']
               },
               {
                 title: "180. Thông tin và đướng link tham khảo",
-                link: "https://youtube.com/embed/kMWcvAkjlgA",
-                download: []
+                link: "../../assets/180.pdf",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1Q8r0NcZbdn8JeNCwmFCRpLst6a7lTYQT',
+                  'https://drive.google.com/uc?export=download&id=1DXGWHSTNDpg7lsugUJnGR7ZJZTjIDFdV',
+                  'https://drive.google.com/uc?export=download&id=1f_gtmYpw2lGokMXf4Ol11DGCoJGo73lu',
+                  'https://drive.google.com/uc?export=download&id=1bti9ZarDnIhd1K4XNqyhPELuIoyFlgpV',
+                  'https://drive.google.com/uc?export=download&id=1m0wR3lASzwyMKfWGfx-9UlU273hrRJHG'
+                ]
               }
             ]
           },
-          // PHẦN 14 NY
+          // PHẦN 14 FINISH
           {
             name: "Phần 14: Triển khai dự án với Observables",
             content: [
               {
                 title: "181. Cải tiến Reactive Service với Observables",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/A-0O1VQrJmc",
                 download: []
               },
               {
                 title: "182. Thay đổi tên Subcription",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
-                download: []
+                link: "../../assets/182.pdf",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1JcWFAsfOVjWwHDEGsN7_0F6HxH53BZRH',
+                  'https://drive.google.com/uc?export=download&id=1EYF9nMRlpzRN-K-MEReH6atGPXtflxif'
+                ]
               }
             ]
           },
@@ -1473,6 +1486,5 @@ export class AppService {
           },
         ]
     }
-
-    dataSelect: any
+    dataSelect:string = ''
 }

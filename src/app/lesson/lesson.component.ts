@@ -14,7 +14,7 @@ export class LessonComponent implements OnInit{
   dataLesson: any
   dataSelect: any
   @ViewChild('myVideo') myVideo!: ElementRef
-  checkLinkDownload = false
+  checkLinkDownload: boolean = false
   linkDownload: Array<string> = []
 
   constructor (private appService: AppService, private courseSelect: AppService) {}
@@ -24,8 +24,8 @@ export class LessonComponent implements OnInit{
     this.dataLesson = this.appService.dataLesson
   }
 
-  // CHỨC NĂNG CLICK VÀO TỪNG HỌC PHẦN
-  onTest(a: any) {
+  // DOWNLOAD TÀI LIỆU HỌC PHẦN
+  onDownload(a: any) {
     this.myVideo.nativeElement.src = a.link
     if (a.download.length === 0) {
       this.checkLinkDownload = false
