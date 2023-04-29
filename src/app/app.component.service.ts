@@ -1115,173 +1115,203 @@ export class AppService {
             content: [
               {
                 title: "183. Hướng dẫn học phần",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/l6vN2GF8MK4",
                 download: []
               },
               {
                 title: "184. Hỗ trợ của Angular trong Form",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/sdxyqi92JHg",
                 download: []
               },
               {
                 title: "185. Template Drive (TD) và Reactive",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/J5qNUNeIuhk",
                 download: []
               },
               {
                 title: "186. Form mẫu",
-                link: "https://youtube.com/embed/royI92nUZTg",
-                download: []
+                link: "https://youtube.com/embed/umEtWgvnOQQ",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1OYvP5kD5RqASMslEEKI33UpvyIFazLVH'
+                ]
               },
               {
                 title: "187. TD: Tạo Form và đăng kí Control",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/nnCjx7SMeUw",
                 download: []
               },
               {
                 title: "188. TD: Submit và sửu dụng Form",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/rQf1UEPKnC8",
                 download: []
               },
               {
                 title: "189. TD: Tìm hiểu về Form State",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/uXV3G3bbRl0",
                 download: []
               },
               {
                 title: "190. TD: Lấy thông tin từ Form bằng @ViewChild",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/xqtTvmF-12k",
                 download: []
               },
               {
                 title: "191. TD: Thêm tính năng Validation với thông tin nhập vào",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/mFIuT0udt2U",
                 download: []
               },
               {
                 title: "192. Thêm Validator và sử dụng tính năng Validation của HTML5",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "../../assets/192.pdf",
                 download: []
               },
               {
                 title: "193. TS: Sử dụng Form State",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/Tj7VX1Pf5Kc",
                 download: []
               },
               {
-                title: "196. TD: Hiển thị thông tin lỗi của Validation",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "194. TD: Hiển thị thông tin lỗi của Validation",
+                link: "https://youtube.com/embed/zA7RfbO5GqQ",
+                download: []
+              },
+              {
+                title: "195. TD: Đặt giá trị mặc định với ngModel",
+                link: "https://youtube.com/embed/xniNfuBT4uo",
+                download: []
+              },
+              {
+                title: "196. TD: Sử dụng gán hai chiều với ngModel",
+                link: "https://youtube.com/embed/iaPFa2E-e_0",
                 download: []
               },
               {
                 title: "197. TD: Kiểm soát Form Group",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/eqx8su6xZrk",
                 download: []
               },
               {
                 title: "198. TD: Làm việc với kiểu lựa chọn (Radio)",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/OsZFq8Z9fIo",
                 download: []
               },
               {
                 title: "199. TD: Nhận và truyền giá trị của Form",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/W8OJDInywlA",
                 download: []
               },
               {
                 title: "200. TD: Sử dụng Form Data",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/KztInH_n1jA",
                 download: []
               },
               {
                 title: "201. TD: Đưa Form về trạng thái mặc định",
-                link: "https://youtube.com/embed/royI92nUZTg",
-                download: []
+                link: "https://youtube.com/embed/ynzYIMJ8z7A",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1jRYQSwfJhrmG2EwWFl1dSVNUd4nX69MW'
+                ]
               },
               {
                 title: "Asignment 06: Thực hành với Template Driven Form",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/QXuymxtMhDI",
                 download: []
               },
               {
-                title: "202. Reactive: Cài đặt",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "THAO KHẢO: Hướng dẫn Assignment 06",
+                link: "https://youtube.com/embed/2kdUhiDp84E",
                 download: []
               },
               {
-                title: "203. Reactive: Tạo Form",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "202. Tiếp cận với Reactive",
+                link: "https://youtube.com/embed/2IDMP9Fcbp0",
                 download: []
               },
               {
-                title: "204. Reactive: Đồng bộ HTML và Form",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "203. Reactive: Cài đặt",
+                link: "https://youtube.com/embed/4UcNiBspsr8",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1eJaD8aktPZSLdCVPLM5iOhLDO2Yutydg'
+                ]
+              },
+              {
+                title: "204. Reactive: Tạo Form",
+                link: "https://youtube.com/embed/Zn6vvb9l_OA",
                 download: []
               },
               {
-                title: "205. Reactive: Submit Form",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "205. Reactive: Đồng bộ HTML và Form",
+                link: "https://youtube.com/embed/Mj1Cx8GKrvg",
                 download: []
               },
               {
-                title: "206. Reactive: Thêm Validation",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "206. Reactive: Submit Form",
+                link: "https://youtube.com/embed/MKNmTydVLoc",
                 download: []
               },
               {
-                title: "207. Reactive: Truy cập vào Control",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "207. Reactive: Thêm Validation",
+                link: "https://youtube.com/embed/kmvVz3kM3bc",
                 download: []
               },
               {
-                title: "208. Reactive: Grouping Control",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "208. Reactive: Truy cập vào Control",
+                link: "https://youtube.com/embed/DfQVsDZ469U",
                 download: []
               },
               {
-                title: "209. Sửa lỗi",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "209. Reactive: Grouping Control",
+                link: "https://youtube.com/embed/a0BTAVJPFPk",
                 download: []
               },
               {
-                title: "210. Reactive: Array trong From Control (FromArray)",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "210. Sửa lỗi",
+                link: "../../assets/210.pdf",
                 download: []
               },
               {
-                title: "211. Reactive: Tạo Validator thủ công",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "211. Reactive: Array trong From Control (FromArray)",
+                link: "https://youtube.com/embed/WwFbqdpKsks",
                 download: []
               },
               {
-                title: "211. Reactive: Sử dụng Error Code",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "212. Reactive: Tạo Validator thủ công",
+                link: "https://youtube.com/embed/aRy3JLkr-m4",
                 download: []
               },
               {
-                title: "212. Reactive: Tạo đồng bộ với Validator thủ công",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "213. Reactive: Sử dụng Error Code",
+                link: "https://youtube.com/embed/sovsldpXoWk",
                 download: []
               },
               {
-                title: "213. Reactive: Truyền trạng thái khi giá trị thay đổi",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "214. Reactive: Tạo đồng bộ với Validator thủ công",
+                link: "https://youtube.com/embed/x-9WWsaeVtw",
                 download: []
               },
               {
-                title: "214. Reactive: Nhận và truyền giá trị",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                title: "215. Reactive: Truyền trạng thái khi giá trị thay đổi",
+                link: "https://youtube.com/embed/2YwM4KGfXLU",
                 download: []
+              },
+              {
+                title: "216. Reactive: Nhận và truyền giá trị",
+                link: "https://youtube.com/embed/2-PYBXRhZMU",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1F8wurxzv8zYzi5BUjfixp0PWWXC9zspL'
+                ]
               },
               {
                 title: "Assignment 07: Thực hành với Ractive Form",
-                link: "https://youtube.com/embed/royI92nUZTg",
+                link: "https://youtube.com/embed/35c2845gW6M",
                 download: []
               },
               {
-                title: "THAM KHẢO: Hướng dẫn Assignment",
-                link: "https://youtube.com/embed/royI92nUZTg",
-                download: []
+                title: "217. THAM KHẢO: Hướng dẫn Assignment 07",
+                link: "https://youtube.com/embed/GFbhjuPdUdo",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1htjTGA4J0QbMkxUxgV1ysWDx5EN8hXRc'
+                ]
               },
             ]
           },
