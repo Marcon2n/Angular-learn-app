@@ -199,7 +199,7 @@ export class AppService {
                 title: "34. Kết hợp tất cả Form của Databinding",
                 link: "https://youtube.com/embed/AshPr9Rvs8Y",
                 download: [
-                  'https://drive.google.com/file/d/1T3wM7zocnabKtXWXNJZQkw8bkJW_4i-U/view?usp=share_link'
+                  'https://drive.google.com/file/d/1T3wM7zocnabKtXWXNJZQkw8bkJW_4i-U'
                 ]
               },
               {
@@ -1109,7 +1109,7 @@ export class AppService {
               }
             ]
           },
-          // PHẦN 15 NY
+          // PHẦN 15 FINISH
           {
             name: "Phần 15: Thao tác Form trong Angular",
             content: [
@@ -1315,125 +1315,396 @@ export class AppService {
               },
             ]
           },
-          // PHẦN 16 NY
+          // PHẦN 16 FINISH
           {
             name: "Phần 16: Triển khai dự án với Form",
             content: [
               {
                 title: "218. Hướng dẫn học phần",
-                link: "https://youtube.com/embed/royI92nUZTg",
-                download: []
+                link: "https://youtube.com/embed/At6H7GqEz9Q",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1Atk1dWQF7A9R-mrq11dZ8qRRn75UHz76'
+                ]
               },
               {
                 title: "219. TD: Thêm Shopping List Form",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/CJsWWHgk0EQ",
                 download: []
               },
               {
                 title: "220. Thêm validation vào Form",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/JpAoOMDXjlk",
                 download: []
               },
               {
                 title: "221. Thêm lựa chọn Item vào danh sách",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/39XwhxitVgE",
                 download: []
               },
               {
                 title: "222. Tải Shopping List Item vào Form",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/3GINxbqzDbM",
                 download: []
               },
               {
                 title: "223. Cập nhật Item đã có",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/RjrtBANk2GI",
                 download: []
               },
               {
                 title: "224. Đưa Form về mặc định",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/3EkgILfEo68",
                 download: []
               },
               {
                 title: "225. Tạo tính năng Clear(Cancel) cho người sử dụng",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/hZBbjxUQ2xg",
                 download: []
               },
               {
                 title: "226. Thêm tính năng xóa Item",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/nBCdkipvyZ8",
                 download: []
               },
               {
                 title: "227. Tạo kiểu mẫu cho Recipe Edit Form bằng Reactive",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/g4QAHd7iHlA",
                 download: []
               },
               {
                 title: "228. Tạo Edit Recipes Form",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/KGJR7E7Bfnk",
                 download: []
               },
               {
                 title: "229. Đồng bộ HTML với Form",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/CfZURnu821o",
                 download: []
               },
               {
                 title: "230. Sủa lỗi",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "../../assets/210.pdf",
                 download: []
               },
               {
                 title: "231. Thêm Ingredient Control vào Form Array",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/ypv1p0SJ4q8",
                 download: []
               },
               {
                 title: "232. Thêm Ingrdient Control mới",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/1DhaYJWn44A",
                 download: []
               },
               {
                 title: "233. Validation thông tin người dùng nhập",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/9wAybonmBB4",
                 download: []
               },
               {
                 title: "234. Submit Recipe Edit Form",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/wdDxqbKNCVA",
                 download: []
               },
               {
                 title: "235. Thêm tính năng xóa và cancel",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/jXEgaAP0YDY",
                 download: []
               },
               {
                 title: "236. Điều hướng sau khi xóa dữ liệu",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/sQD1133z544",
                 download: []
               },
               {
                 title: "237. Thêm trình chiếu hình ảnh",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/SzNpOCr8O2E",
                 download: []
               },
               {
                 title: "238. Hướng dẫn thao tác với Recipe Service",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "https://youtube.com/embed/EN_tFzx0hIY",
                 download: []
               },
               {
                 title: "239. Xóa Ingredient và một số lưu ý",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
-                download: []
+                link: "https://youtube.com/embed/uKs9pmxuW6Q",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1husdYm2UnXTc7D-PN9TbtlR7eu0FGyuE'
+                ]
               },
               {
                 title: "240. Xóa tất cả Item trong FormArray",
-                link: "https://youtube.com/embed/eU-XfRJe36w",
+                link: "../../assets/240.pdf",
                 download: []
               },
+            ]
+          },
+          // PHẦN 17 FINISH
+          {
+            name: "Phần 17: Sử dụng Pipe để truyền thông tin output",
+            content: [
+              {
+                title: "241. Giới thiệu và giải thích cơ chế Pipe",
+                link: "https://youtube.com/embed/62p8zRosIng",
+                download: []
+              },
+              {
+                title: "242. Sử dụng Pipe",
+                link: "https://youtube.com/embed/K2UTLTyx06g",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1khYJJ0SBfVvxVgD0_ciOn3erbVNuJG6k'
+                ]
+              },
+              {
+                title: "243. Tham số trong Pipe",
+                link: "https://youtube.com/embed/bKt2na9J9OY",
+                download: []
+              },
+              {
+                title: "244. Các nơi cung cấp kiến thức về Pipe",
+                link: "https://youtube.com/embed/tUoaZOARGcE",
+                download: []
+              },
+              {
+                title: "245. Chaining nhiều Pipes",
+                link: "https://youtube.com/embed/Hepb6TBUeWk",
+                download: []
+              },
+              {
+                title: "246. Tạo Pipe thủ công",
+                link: "https://youtube.com/embed/OcfNmm3vQMM",
+                download: []
+              },
+              {
+                title: "247. Tham số của Pipe thủ công",
+                link: "https://youtube.com/embed/b_rfu2xRyN4",
+                download: []
+              },
+              {
+                title: "248. Ví dụ: Tạo Filter Pipe",
+                link: "https://youtube.com/embed/AWtglAgugWs",
+                download: []
+              },
+              {
+                title: "249. Pure và Impure Pipe (Cách sửa lỗi của Filter Pipe)",
+                link: "https://youtube.com/embed/zMABxHefCz0",
+                download: []
+              },
+              {
+                title: "250. Tìm hiểu về Async Pipe",
+                link: "https://youtube.com/embed/e_n_3Cbs9_8",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1GQ-o83ODo7Ol7zuXOjxgUMr-OSAWrwEu'
+                ]
+              },
+              {
+                title: "Assingment 08: Thực hành với Pipe",
+                link: "https://youtube.com/embed/ExYm6wTNVng",
+                download: []
+              },
+              {
+                title: "THAM KHẢO: Hướng dẫn Assingment 08",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 18 NY
+          {
+            name: "Phần 18: Http Request",
+            content: [
+              {
+                title: "251. IDE mới",
+                link: "https://youtube.com/embed/62p8zRosIng",
+                download: []
+              },
+              {
+                title: "252. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/K2UTLTyx06g",
+                download: []
+              },
+              {
+                title: "253. Angular tương tác với Backend như thế nào",
+                link: "https://youtube.com/embed/bKt2na9J9OY",
+                download: []
+              },
+              {
+                title: "254. TÌm hiểu bên trong Http Request có gì",
+                link: "https://youtube.com/embed/tUoaZOARGcE",
+                download: []
+              },
+              {
+                title: "255. Cài đặt Backend (Firebase)",
+                link: "https://youtube.com/embed/Hepb6TBUeWk",
+                download: []
+              },
+              {
+                title: "256. Gửi yêu cầu POST",
+                link: "https://youtube.com/embed/OcfNmm3vQMM",
+                download: []
+              },
+              {
+                title: "257. Lấy thông tin với GET",
+                link: "https://youtube.com/embed/b_rfu2xRyN4",
+                download: []
+              },
+              {
+                title: "258. Dùng phương thức của RxJS để chuyển response data",
+                link: "https://youtube.com/embed/AWtglAgugWs",
+                download: []
+              },
+              {
+                title: "259. Sử dụng loại với HttpClient",
+                link: "https://youtube.com/embed/zMABxHefCz0",
+                download: []
+              },
+              {
+                title: "260. Outputting Post",
+                link: "https://youtube.com/embed/e_n_3Cbs9_8",
+                download: []
+              },
+              {
+                title: "261. Hiển thị Loading Indicator",
+                link: "https://youtube.com/embed/ExYm6wTNVng",
+                download: []
+              },
+              {
+                title: "262. Sử dụng Service với Http Request",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "263. Cùng làm việc với Service và Component",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "264. Gửi Delete Request",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "265. Xử lý lỗi",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "266. Dùng Subject để xử lý lỗi",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "267. Sử dụng toán tử catchError",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "268. Xử lý lỗi và UX",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "269. Đặt Header",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "270. Thêm Query Params",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "271. Observing nhiều kiểu response khác nhau",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "272. Thay đổi Response Body Type",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "273. Giới thiệu về Interceptors",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              ,
+              {
+                title: "274. Kiểm soát Request Object",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "275. Response Interceptors",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "276. Multiple Interceptors",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "277. Tóm tắt kiến thức học phần",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              },
+              {
+                title: "278. Tài liệu và link tham khảo",
+                link: "https://youtube.com/embed/4CMpVbmy7Rw",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 19 NY
+          {
+            name: "Phần 19: Triển khai dự án với Http",
+            content: [
+              {
+                title: "279. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/62p8zRosIng",
+                download: []
+              },
+              {
+                title: "280. Cài đặt Backend (firebase)",
+                link: "https://youtube.com/embed/K2UTLTyx06g",
+                download: []
+              },
+              {
+                title: "281. Cài đặt DataStorage Service",
+                link: "https://youtube.com/embed/bKt2na9J9OY",
+                download: []
+              },
+              {
+                title: "282. Lưu trữ Recipes",
+                link: "https://youtube.com/embed/tUoaZOARGcE",
+                download: []
+              },
+              {
+                title: "283. Fetching Recipes",
+                link: "https://youtube.com/embed/Hepb6TBUeWk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "284. Truyền response data",
+                link: "https://youtube.com/embed/OcfNmm3vQMM",
+                download: []
+              },
+              {
+                title: "285. Phân tích Data trước khi Loading",
+                link: "https://youtube.com/embed/b_rfu2xRyN4",
+                download: []
+              },
+              {
+                title: "286. Sửa lỗi với Resolver",
+                link: "https://youtube.com/embed/AWtglAgugWs",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              }
             ]
           },
           // PHẦN 33 FINISH
