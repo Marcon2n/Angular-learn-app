@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, SimpleChange, ViewChild } from '@angular/core';
 import { AppService } from '../app.component.service';
 
 
@@ -10,18 +10,26 @@ import { AppService } from '../app.component.service';
 export class LessonComponent implements OnInit{
   
   // DATA CHÍNH
-  courseSelected: any
+  @Input() courseSelected: string = 'angular'
   dataLesson: any
   dataSelect: any
   @ViewChild('myVideo') myVideo!: ElementRef
   checkLinkDownload: boolean = false
   linkDownload: Array<string> = []
 
-  constructor (private appService: AppService, private courseSelect: AppService) {}
+  constructor (
+    private appService: AppService
+    ) {}
 
   ngOnInit(): void {
-    this.courseSelected = this.courseSelect
     this.dataLesson = this.appService.dataLesson
+    this.dataSelect = this.dataLesson[this.courseSelected]
+  }
+
+  // THAY ĐỔI COURSE
+  ngOnChanges(change: SimpleChange) {
+    console.log(change)
+    this.dataSelect = this.dataLesson[this.courseSelected]
   }
 
   // DOWNLOAD TÀI LIỆU HỌC PHẦN

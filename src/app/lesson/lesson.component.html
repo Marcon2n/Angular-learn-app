@@ -123,14 +123,14 @@
     <div class="col-lg-3">
       <div 
       class="container text-center text-uppercase bg-dark text-white mt-1 p-3">
-          <strong>NỘI DUNG BÀI HỌC</strong>
+          <strong>{{courseSelected}}</strong>
       </div>
       <div class="accordion accordion-flush" 
           style="overflow-y: auto;
           max-height: 800px;">
           <div 
           class="accordion-item"
-          *ngFor="let lesson of dataLesson.angular; let i = index">
+          *ngFor="let lesson of dataSelect; let i = index">
             <h2 
             class="accordion-header" 
             id="flush-headingOne">
@@ -148,7 +148,7 @@
             class="accordion-collapse collapse bg-light">
               <div 
               class="accordion-body"
-              *ngFor="let test of lesson.content; let in = index">
+              *ngFor="let i of lesson.content; let in = index">
                 <div class="form-check">
                   <input 
                   class="form-check-input" 
@@ -160,7 +160,7 @@
                   for="defaultCheck1">
                     <a 
                     href="#"
-                    (click)="onDownload(test)">{{test.title}}</a>
+                    (click)="onDownload(i)">{{i.title}}</a>
                   </label>
                 </div>
                 

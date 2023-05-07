@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppService } from '../app.component.service';
 
 @Component({
   selector: 'app-header',
@@ -9,13 +10,18 @@ export class HeaderComponent implements OnInit {
   isClick = [false, false]
   courseSelected:string = ''
 
+  constructor(
+    private dataLesson: AppService
+  ){}
+
   ngOnInit(): void {
+    this.courseSelected = this.dataLesson.courseSelect
   }
 
   onTest (a:any) {
-    this.courseSelected = a.target.id
+    this.dataLesson.onChangeCourse(a.target.id)
+    console.log(this.dataLesson.courseSelect)
     console.log(a.target.id)
-    console.log(this.courseSelected)
   }
 
   onToggle(a: any) {

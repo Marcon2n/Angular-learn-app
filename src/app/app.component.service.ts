@@ -1,6 +1,6 @@
 export class AppService {
     dataLesson = {
-        angular: [
+        'angular' : [
           // PHẦN 1
           {
             name: "Phần 1: Giới thiệu",
@@ -1629,7 +1629,6 @@ export class AppService {
                 link: "https://youtube.com/embed/4CMpVbmy7Rw",
                 download: []
               },
-              ,
               {
                 title: "274. Kiểm soát Request Object",
                 link: "https://youtube.com/embed/4CMpVbmy7Rw",
@@ -1663,44 +1662,44 @@ export class AppService {
             content: [
               {
                 title: "279. Hướng dẫn học phần",
-                link: "https://youtube.com/embed/62p8zRosIng",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
                 download: []
               },
               {
                 title: "280. Cài đặt Backend (firebase)",
-                link: "https://youtube.com/embed/K2UTLTyx06g",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
                 download: []
               },
               {
                 title: "281. Cài đặt DataStorage Service",
-                link: "https://youtube.com/embed/bKt2na9J9OY",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
                 download: []
               },
               {
                 title: "282. Lưu trữ Recipes",
-                link: "https://youtube.com/embed/tUoaZOARGcE",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
                 download: []
               },
               {
                 title: "283. Fetching Recipes",
-                link: "https://youtube.com/embed/Hepb6TBUeWk",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
                 download: [
                   'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
                 ]
               },
               {
                 title: "284. Truyền response data",
-                link: "https://youtube.com/embed/OcfNmm3vQMM",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
                 download: []
               },
               {
                 title: "285. Phân tích Data trước khi Loading",
-                link: "https://youtube.com/embed/b_rfu2xRyN4",
+                link: "https://youtube.com/embed/KZXp8JVhmPk",
                 download: []
               },
               {
                 title: "286. Sửa lỗi với Resolver",
-                link: "https://youtube.com/embed/AWtglAgugWs",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
                 download: [
                   'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
                 ]
@@ -1785,7 +1784,13 @@ export class AppService {
               }
             ]
           },
-        ]
+        ],
+        'HTML': []
     }
-    dataSelect:string = ''
+
+    courseSelect: string = 'angular'
+
+    onChangeCourse(data: string) {
+      this.courseSelect = data
+    }
 }

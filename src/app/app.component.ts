@@ -10,14 +10,13 @@ import { AppService } from './app.component.service';
 })
 export class AppComponent implements OnInit{
   masterData: any
-  dataSelected: any
   title = 'learn-app';
 
-  constructor (private dataLesson: AppService, private dataSelect: AppService) {
+  constructor (
+    private dataLesson: AppService) {
   }
 
   ngOnInit(): void {
     this.masterData = this.dataLesson
-    this.dataSelect = this.dataSelect
   }
 }
