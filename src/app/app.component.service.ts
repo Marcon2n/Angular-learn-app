@@ -1656,7 +1656,7 @@ export class AppService {
               }
             ]
           },
-          // PHẦN 19 NY
+          // PHẦN 19 FINISH
           {
             name: "Phần 19: Triển khai dự án với Http",
             content: [
@@ -1706,78 +1706,1139 @@ export class AppService {
               }
             ]
           },
-          // PHẦN 33 FINISH
+          // PHẦN 20 NY
           {
-            name: "Phần 33: Hướng dẫn qua về TypeScript",
+            name: "Phần 20: Authentication và Route Protection trong Angular",
             content: [
               {
-                title: "461. Giới thiệu học phần",
+                title: "287. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "288. Cách Authentication hoạt động",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "289. Thêm trang Auth",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "290. Chuyển đổi Auth Mode",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "291. Làm việc với Form Input",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "292. Chuẩn bị Backend",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "293. Đảm bảo bạn có Recipe trong Backend",
+                link: "https://youtube.com/embed/KZXp8JVhmPk",
+                download: []
+              },
+              {
+                title: "294. Chuẩn bị cho Singup Request",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "295. Gửi Signup Request",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "296. Thêm hiệu ứng Loading Spinner và xử lý lỗi Logic",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "297. Cải hiện việc xử lý lỗi",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "298. Gửi Login Request",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "299. Xử lý lỗi Login",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "300. Tạo và lưu thông tin người dùng",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "301. Tương tác Auth State trong UI",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "302. Thêm Token cho Outgoing Request",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "303. Đính Token với Interceptor",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "304. Thêm chức năng Logout",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "305. Thêm chức năng Auto-Login",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "306. Thêm chức năng Auto-Logout",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "307. Thêm chức năng Auth Guard",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "308. Tóm tắt kiến thức học phần",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "309. Tài liệu và link tham khảo",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              }
+            ]
+          },
+          // PHẦN 21 NY
+          {
+            name: "Phần 21: Component động",
+            content: [
+              {
+                title: "310. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "311. Thêm Alert Modal Component",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "312. Tìm hiểu về cách tiếp cận khác",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "313. Sử dụng 'ngIf'",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "314. Chuẩn bị tạo tự động",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "315. Tạo Component tự động",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "316. Tìm hiểu về entryComponent",
+                link: "https://youtube.com/embed/KZXp8JVhmPk",
+                download: []
+              },
+              {
+                title: "317. Data Binding và Event Binding",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "318. Tóm tắt kiến thức học phần",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "319. Tài liệu và link tham khảo",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              }
+            ]
+          },
+          // PHẦN 22 NY
+          {
+            name: "Phần 22: Angular Modules và tối ưu Angular App",
+            content: [
+              {
+                title: "320. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "321. Modules là gì?",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "322. Phân tích trong Modules có gì",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "323. Bắt đầu với Feature Modules",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "324. Cách tách Modules chuẩn",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "325. Thêm Route vào Feature Modules",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "326. Component Declarations",
+                link: "https://youtube.com/embed/KZXp8JVhmPk",
+                download: []
+              },
+              {
+                title: "327. Feature Modules của ShoppingList",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "328. Tìm hiểu về Shared Modules",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "329. Tìm hiểu về Core Modules",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "330. Thêm Auth Feature Module",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "331. Tìm hiểu về Lazing Loading",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "332. Thực hiện Lazing Loading",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "333. Lazing Loading tiếp",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "334. Preloading Lazy-Loaded code",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "335. Modules và Service",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "336. Cách khác thực hiện Loading Service",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              },
+              {
+                title: "337. Tài liệu và link tham khảo",
+                link: "https://youtube.com/embed/a3mtgvrH49Y",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1VSjuIwfn1HF_wDy3lmc_STI9aCWanlMv'
+                ]
+              }
+            ]
+          },
+          // PHẦN 23 NY
+          {
+            name: "Phần 23: Chạy thử Angular App",
+            content: [
+              {
+                title: "338. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "339. Các bước chuẩn bị chạy thử",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "340. Sử dụng Enviroment Variables",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "341. Chạy thử Angular App",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "342. Ví dụ chạy thử: Firebase Hosting",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "343. Server Routing và Browser Routing",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 24 NY
+          {
+            name: "Phần 24: Standalone Component",
+            content: [
+              {
+                title: "344. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "345. Cài đặt và lý do tại sao ta cần Standalone Component",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "346. Tạo Standalone Component đầu tiên",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "347. Standalone Component hiện đã ổn định",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "348. Standalone Directive và cách kết nối các Blocks",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "349. Chuyển thông tin sang các Component khác",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "350. Standalone Root Component",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "351. Service và Standalone Component",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "352. Routing với Standalone Component",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "353. Lazy Loading",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "354. Tóm tắt kiến thức học phần",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 25 NY
+          {
+            name: "Phần 25: Angular Signals",
+            content: [
+              {
+                title: "355. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "356. Signals: Là gì và tại sao?",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "357. Tạo Signal mới",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "358. Cập nhật giá trị Signal",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "359. Đọc và xuất giá trị của Signal",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "360. Cập nhật Signal: set(), update(), mutate()",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "361. LƯU Ý: Signal chưa hoàn thiện",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "362. Signal: Tương lai?",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "363. Tính toán giá trị và hiệu quả",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "364. Tóm tắt kiến thức học phần",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 26 NY
+          {
+            name: "Phần 26: Sử dụng NgRx trong dự án",
+            content: [
+              {
+                title: "365. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "366. Application State là gì?",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "367. NgRx là gì?",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "368. Bắt đầu với Reducer",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "369. Bổ sung Logic vào Reducer",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "370. Tìm hiểu và thêm Actions",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "371. Cài đặt NgRx Store",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "372. Lựa chọn State",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "373. Gửi thông tin Actions",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "374. Kết hợp nhiều Actions",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "375. Chuẩn bị Update và Delete Actions",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "376. Updating và Deleting Ingredients",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "377. Mở rộng State",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "378. Quản lý nhiều State qua NgRx",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "379. Xóa Redundant Component State Management",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "380. Tóm tắt nửa đầu và kết luận",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "381. One Root State",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "382. Cài đặt Auth Reducer và Action",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "383. Gửi thông tin Auth Action",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "384. Hoàn thành Auth (cho tới hiện tại...)",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "385. Ghi chú quan trọng với Action",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "386. Tìm hiểu về NgRx Effect",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "387. Thiết lập Effect đầu tiên",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "388. QUAN TRỌNG: Avoid @Effect",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "389. Effect và xử lý lỗi",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "390. Login thông qua NgRx Effect",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "391. Quản lý UI State với NgRx",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "392. Hoàn thiện Login Effect",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "393. Chuẩn bị Other Auth Action",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "394. Thêm chức năng Singup",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "395. Auth Effect tiếp",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "396. Thêm chức năng Auto-Login với NgRx",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "397. Thêm chức năng Auto-Logout",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "398. Kết hợp nhiều Actions",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "399. Sử dụng Store Devtools",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "400. Router Store",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "401. Áp dụng NgRx cho Recipes",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "402. Fetching Recipe Detail Data",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "403. Fetching Recipes và sử dụng Resolver",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "404. Sửa Auth Redirect",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "405. Update, Delete và Add Recipes",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "406. Lưu thông tin Recipes bằng Effect",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "407. Sửa lại code",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "408. Tóm tắt kiến thức học phần",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "409. Các câu lệnh thay thế của NgRx",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "410. Tài liệu và link tham khảo",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 27 NY
+          {
+            name: "Phần 27: Angular Universal",
+            content: [
+              {
+                title: "411. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "412. Angular Universal và ModuleMapLoader",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "413. Thêm Angular Universal",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "414. Thêm Angular Universal bằng NestJS",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "415. Chạy Universal App",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "416. QUAN TRỌNG: Các bài học còn lại",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "417. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "418. Bắt đầu với Angular Universal",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "419. Làm việc với App Module",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "420. Thêm Server-Side Build Workflow",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "421. Thêm Server NodeJS",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "422. Chạy thử App trên Server",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "423. Các bước tiếp theo",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "424. Angular Universal Gotchas",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 28 NY
+          {
+            name: "Phần 28: Angular Animations",
+            content: [
+              {
+                title: "425. Tạo Animaton với Angular 4+",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "426. Hướng dẫn",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "427. Cài đặt và bắt đầu dự án",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "428. Animations Triggers và State",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "429. Chuyển trạng thái các State",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "430. Transitions",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "431. Transition nâng cao",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "432. Transition Phases",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "433. Void State",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "434. Sử dụng Keyframe cho Animation",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "435. Grouping Transitions",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              },
+              {
+                title: "436. Sử dụng Animaiton Callbacks",
+                link: "https://youtube.com/embed/Cc1Ro-3mIH4",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 29 NY
+          {
+            name: "Phần 29: Thêm chức năng ngoại tuyến với Service Workers ",
+            content: [
+              {
+                title: "437. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "438. Thêm Service Workers",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "439. Nhận các Assets sử dụng Offline",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "440. Nhận các Asset động và URLs",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "441. Tài liệu và link tham khảo",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              }
+            ]
+          },
+          // PHẦN 30 NY
+          {
+            name: "Phần 30: Hướng dẫn Unit Test trong Angular App",
+            content: [
+              {
+                title: "442. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "443. Hướng dẫn",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "444. Unit Tests là gì?",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "445. Cấu trúc các Unit Test (tạo bới CLI)",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "446. Chạy Tests (bằng CLI)",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "447. Thêm Component và Unit Test",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "448. Kiểm tra tính phụ thuộc: Component và Service",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "449. Giả lập Async Task",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "450. Sử dụng 'fakeAsync' và 'tick'",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "451. Isolated và Non-Isolated Test",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "452. Tài liệu và link tham khảo",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 31 NY
+          {
+            name: "Phần 31: Nền tảng Angular và tìm hiểu thêm về CLI",
+            content: [
+              {
+                title: "453. Hướng dẫn học phần",
+                link: "https://youtube.com/embed/0raWzzCkIC0",
+                download: []
+              },
+              {
+                title: "454. Tìm hiểu về 'ng new'",
+                link: "https://youtube.com/embed/wRjqxkG6kug",
+                download: []
+              },
+              {
+                title: "455. IDE và cài đặt dự án",
+                link: "https://youtube.com/embed/Nc-DO73uCws",
+                download: []
+              },
+              {
+                title: "456. Tìm hiểu về file Config",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "457. Các lệnh quan trọng của CLI",
+                link: "https://youtube.com/embed/pjCZwXT9ewk",
+                download: [
+                  'https://drive.google.com/uc?export=download&id=1qAiV6jDUr9H2kwnRYrKEMTyitr7nXtQO'
+                ]
+              },
+              {
+                title: "458. Tìm hiểu về file 'angular.json'",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "459. Hướng dẫn về sơ đồ hoạt động của Angular",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "460. Lệnh 'ng add'",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "461. Sử dụng 'ng generate'",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "462. Cập nhật dự án dễ dàng với 'ng update'",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "463. Chạy thử với 'ng deploy'",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "464. Tìm hiểu về 'Differential Loading'",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "465. Quản lý nhiều dự án trong Một Folder",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "466. Thư viện Angular",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              },
+              {
+                title: "467. Tóm tắt học phần",
+                link: "https://youtube.com/embed/cDnKYPRWNJ8",
+                download: []
+              }
+            ]
+          },
+          // PHẦN 32 FINISH
+          {
+            name: "Phần 32: Hướng dẫn qua về TypeScript",
+            content: [
+              {
+                title: "468. Giới thiệu học phần",
                 link: "https://youtube.com/embed/6Dg2huLJUNU",
                 download: []
               },
               {
-                title: "462. What và Why",
+                title: "469. What và Why",
                 link: "https://youtube.com/embed/MoDakmrI274",
                 download: []
               },
               {
-                title: "463. Cài đặt và sử dụng TypeScript",
+                title: "470. Cài đặt và sử dụng TypeScript",
                 link: "https://youtube.com/embed/8TVjz5-_kJM",
                 download: []
               },
               {
-                title: "464. Các dạng kiểu dữ liệu và dữ liệu Primitive",
+                title: "471. Các dạng kiểu dữ liệu và dữ liệu Primitive",
                 link: "https://youtube.com/embed/BgugqK-qXDw",
                 download: []
               },
               {
-                title: "465. Dạng Array và Object",
+                title: "472. Dạng Array và Object",
                 link: "https://youtube.com/embed/2PXpWPM6yDk",
                 download: []
               },
               {
-                title: "466. Suy luận kiểu Type Inference",
+                title: "473. Suy luận kiểu Type Inference",
                 link: "https://youtube.com/embed/V5rIhv9XQzw",
                 download: []
               },
               {
-                title: "467. Union Type",
+                title: "474. Union Type",
                 link: "https://youtube.com/embed/uYGOiIwqMiY",
                 download: []
               },
               {
-                title: "468. Đặt biệt danh cho kiểu",
+                title: "475. Đặt biệt danh cho kiểu",
                 link: "https://youtube.com/embed/BmyK4GnmP4U",
                 download: []
               },
               {
-                title: "469. Tìm hiểu về chức năng và các kiểu chức năng",
+                title: "476. Tìm hiểu về chức năng và các kiểu chức năng",
                 link: "https://youtube.com/embed/j7pzXpCh0o4",
                 download: []
               },
               {
-                title: "470. Tìm hiểu về tham số hóa kiểu dữ liệu - Generics",
+                title: "477. Tìm hiểu về tham số hóa kiểu dữ liệu - Generics",
                 link: "https://youtube.com/embed/Fz8rZijJvOo",
                 download: []
               },
               {
-                title: "471. Class và Typescript",
+                title: "478. Class và Typescript",
                 link: "https://youtube.com/embed/VNyPuZZqVPg",
                 download: []
               },
               {
-                title: "472. Thao tác với Interface",
+                title: "479. Thao tác với Interface",
                 link: "https://youtube.com/embed/LToiZ-wR0Xw",
                 download: []
               },
               {
-                title: "473. Tùy chỉnh Compiler của Typescript",
+                title: "480. Tùy chỉnh Compiler của Typescript",
                 link: "https://youtube.com/embed/K3DTX0bKbi8",
                 download: []
               },
               {
-                title: "474. Tài liệu học phần",
-                link: "../../assets/474.pdf",
+                title: "481. Tài liệu học phần",
+                link: "../../assets/481.pdf",
                 download: [
                   'https://drive.google.com/uc?export=download&id=1eNmju2WUHl4EVVNacSCjl24N48TQAr_i'
                 ]
@@ -1785,7 +2846,140 @@ export class AppService {
             ]
           },
         ],
-        'HTML': []
+        'HTML': [
+          // PHẦN 1 NY
+          {
+            name: "Phần 1: Giới thiệu",
+            content: [
+              {
+                title: "1. Giới thiệu khóa học",
+                link: "https://youtube.com/embed/rvxzn2cfFDM",
+                download: []
+              },
+              {
+                title: "2. Thông tin trước khi bắt đầu khóa học",
+                link: "https://youtube.com/embed/bZhS5POYBSQ",
+                download: []
+              },
+              {
+                title: "3. Thông tin cập nhật khóa học",
+                link: "../../assets/003.pdf",
+                download: []
+              },
+              {
+                title: "4. Tổng quan về Web Developer trình độ cao",
+                link: "https://youtube.com/embed/nvqbChsPX3I",
+                download: []
+              },
+              {
+                title: "5. Cài đặt phần mềm Code Editor",
+                link: "../../assets/005.pdf",
+                download: []
+              },
+              {
+                title: "6. Website đầu tiên",
+                link: "https://youtube.com/embed/3VhLtX-W6OA",
+                download: [
+                  "https://drive.google.com/uc?export=download&id=1MA9I3Lmwxl4I1fbxl_dkoReozKMc6kT3"]
+              },
+              {
+                title: "7. Tải các tài liệu liên quan khóa học",
+                link: "https://youtube.com/embed/0CIKCN7gvaQ",
+                download: [
+                  "https://drive.google.com/uc?export=download&id=1nmY3PmATL8AvcJqSzwD-QAqe79utq2Jb"
+                ]
+              },
+              {
+                title: "8. Tìm hiểu trước khi bắt đầu",
+                link: "https://youtube.com/embed/koy8OJ79zBc",
+                download: []
+              }
+            ]
+          },
+        ],
+        'javascript': [
+          // PHẦN 1 NY
+          {
+            name: "Phần 1: Giới thiệu",
+            content: [
+              {
+                title: "1. Giới thiệu khóa học",
+                link: "https://youtube.com/embed/rvxzn2cfFDM",
+                download: []
+              },
+              {
+                title: "2. Tìm hiểu trước khi bắt đầu",
+                link: "https://youtube.com/embed/bZhS5POYBSQ",
+                download: []
+              },
+              {
+                title: "3. Thông tin cập nhật khóa học",
+                link: "../../assets/003.pdf",
+                download: []
+              },
+              {
+                title: "4. Cài đặt phần mềm Code Editor",
+                link: "https://youtube.com/embed/nvqbChsPX3I",
+                download: []
+              }
+            ]
+          },
+        ],
+        'typescript': [
+          // PHẦN 1 NY
+          {
+            name: "Phần 1: Giới thiệu",
+            content: [
+              {
+                title: "1. Giới thiệu khóa học",
+                link: "https://youtube.com/embed/rvxzn2cfFDM",
+                download: []
+              },
+              {
+                title: "2. TypeScript là gì và sự cần thiết",
+                link: "https://youtube.com/embed/bZhS5POYBSQ",
+                download: []
+              },
+              {
+                title: "3. Tham gia cộng đồng học tập",
+                link: "../../assets/003.pdf",
+                download: []
+              },
+              {
+                title: "4. Cài đặt và sử dụng TypeScript",
+                link: "https://youtube.com/embed/nvqbChsPX3I",
+                download: []
+              },
+              {
+                title: "5. Ưu điểm của TypeScript",
+                link: "https://youtube.com/embed/nvqbChsPX3I",
+                download: []
+              },
+              {
+                title: "6. Các nội dung chính của khóa học",
+                link: "https://youtube.com/embed/nvqbChsPX3I",
+                download: []
+              },
+              {
+                title: "7. Các kiến thức đạt được khi hoàn thành khóa học",
+                link: "https://youtube.com/embed/nvqbChsPX3I",
+                download: []
+              },
+              {
+                title: "8. Cài đặt Code Editor/IDE",
+                link: "https://youtube.com/embed/nvqbChsPX3I",
+                download: []
+              },
+              {
+                title: "9. Cài đặt dự án khóa học",
+                link: "https://youtube.com/embed/nvqbChsPX3I",
+                download: []
+              }
+            ]
+          },
+        ],
+        'react': [],
+        'node': []
     }
 
     courseSelect: string = 'angular'
